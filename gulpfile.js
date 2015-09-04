@@ -5,7 +5,7 @@ var browserSync = require("browser-sync");
 gulp.task("browser-sync", function() {
     browserSync({
         proxy: "localhost:3000",
-        port: 5000,
+        port: 3000,
     })
 });
 
@@ -19,12 +19,6 @@ gulp.task("nodemon", function(cb) {
                     called = true;
                     cb();
             }
-    }).on('restart', function() {
-            settimeout(function() {
-                    reload({
-                        stream: false,
-                    });
-            });
     });
 });
 
