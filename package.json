@@ -16,9 +16,7 @@
     "browser-sync": "~2.9.1",
     "gulp-ruby-sass": "~1.4.0"
   },
-  "devDependencies": {
-    "gulp-nodemon": "^2.0.4"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
